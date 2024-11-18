@@ -1,11 +1,11 @@
-```lua
+
 -- Improved version of the code
 
 -- Services
 local players = game:GetService("Players")
 local tweenService = game:GetService("TweenService")
 local replicatedStorage = game:GetService("ReplicatedStorage")
-local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MAKERBKZZ/Howmany/refs/heads/main/UITransparant.lua"))() 
+local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MAKERBKZZ/Howmany/refs/heads/main/Testing.lua"))() 
 UI:updateCountdownText("Dellstorecpm")
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
@@ -355,4 +355,3 @@ end
 task.spawn(checkIdle)
 connectEvents()
 antiIdle()
-```
