@@ -5,7 +5,7 @@
 local players = game:GetService("Players")
 local tweenService = game:GetService("TweenService")
 local replicatedStorage = game:GetService("ReplicatedStorage")
-local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MAKERBKZZ/Howmany/refs/heads/main/Testing.lua"))() 
+local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MAKERBKZZ/Howmany/refs/heads/main/UITransparant.lua"))() 
 UI:updateCountdownText("Dellstorecpm")
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
